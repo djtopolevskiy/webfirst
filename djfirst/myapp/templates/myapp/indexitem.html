@@ -1,0 +1,12 @@
+{% load static %}
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'myapp/style.css' %}" />
+	</head>
+	<body>
+		<h1>Index item page</h1>
+		<h2>ID: {{ product.id }} | name: {{ product.name }}</h2>
+		<p>price: {{ product.price }}</p>
+		<p>description: {{ product.description }}</p>
+	</body>
+</html>
